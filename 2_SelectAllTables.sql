@@ -1,0 +1,15 @@
+SELECT [COURSE_ID]
+      ,[NAME]
+      ,[DESCRIPTION]
+  FROM [Courses].[dbo].[COURSES]
+
+  SELECT [GROUP_ID]
+      ,[COURSE_ID]
+      ,[NAME]
+  FROM [Courses].[dbo].[GROUPS]
+
+  SELECT [STUDENT_ID]
+      ,[GROUP_ID]
+      ,[FIRST_NAME]
+      ,[LAST_NAME]
+  FROM [Courses].[dbo].[STUDENTS]
